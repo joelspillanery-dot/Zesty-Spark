@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zesty Spark</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 class="hero-title">Zesty Spark</h1>
+    <p class="hero-subtitle">Refresh Your Senses</p>
+    <a href="#about" class="cta-btn">Discover More</a>
+    <div class="bubbles"></div>
+  </header>
+
+  <section id="about">
+    <h2>About Zesty Spark</h2>
+    <p>Zesty Spark is a crisp, lively drink blending dry lemonade with tonic water. Perfectly balanced, refreshing, and full of citrus zest!</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <img src="drink1.jpg" alt="Zesty Spark">
+      <img src="drink2.jpg" alt="Zesty Spark">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zesty Spark</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
