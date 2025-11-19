@@ -1,0 +1,14 @@
+body, html { margin: 0; font-family: 'Arial', sans-serif; scroll-behavior: smooth; }
+.hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(to top, #fefcea, #f1da36); position: relative; overflow: hidden; }
+.hero-title { font-size: 4rem; color: #f57f17; animation: fadeIn 2s ease-in; }
+.hero-subtitle { font-size: 1.5rem; margin-top: 1rem; animation: fadeIn 2s ease-in 0.5s; }
+.cta-btn { margin-top: 2rem; padding: 1rem 2rem; background: #fdd835; color: #fff; text-decoration: none; font-weight: bold; border-radius: 25px; transition: 0.3s; }
+.cta-btn:hover { background: #fbc02d; transform: scale(1.05); }
+.bubbles { position: absolute; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none; }
+
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+
+section { padding: 4rem 2rem; text-align: center; }
+.images img { width: 200px; margin: 1rem; border-radius: 15px; transition: transform 0.3s; }
+.images img:hover { transform: scale(1.1) rotate(-5deg); }
+footer { background: #f57f17; color: #fff; text-align: center; padding: 1rem; }
